@@ -9,8 +9,8 @@ def get_random_joke():
         joke = response.json()
         setup = joke['setup']
         punchline = joke['punchline']
-        print(f"The Joke: {setup}")
-        print(f"Punchline: {punchline}")
+        print(f"The Joke of a day: {setup}")
+        print(f"Punchline for joke: {punchline}")
     else:
         print("Failed to retrieve data")
 
